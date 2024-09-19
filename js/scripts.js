@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    $(".jav").mouseover(function() {
+$(document).ready(function () {
+    $(".jav").mouseover(function () {
         $(".java").slideToggle()
         $(".html").slideUp()
         $(".css").slideUp()
@@ -10,10 +10,10 @@ $(document).ready(function() {
         $(".chain").slideUp()
         $(".para").slideUp()
         $(".play").slideUp()
-      
+
     });
 
-    $(".ht").mouseover(function() {
+    $(".ht").mouseover(function () {
         $(".html").slideToggle()
         $(".java").slideUp()
         $(".css").slideUp()
@@ -25,7 +25,7 @@ $(document).ready(function() {
         $(".para").slideUp()
         $(".play").slideUp()
     });
-    $(".cs").mouseover(function() {
+    $(".cs").mouseover(function () {
         $(".css").slideToggle()
         $(".java").slideUp()
         $(".method").slideUp()
@@ -37,8 +37,9 @@ $(document).ready(function() {
         $(".play").slideUp()
         $(".html").slideUp()
     });
-    $(".met").mouseover(function() {
+    $(".met").mouseover(function () {
         $(".method").slideToggle()
+        $(".html").slideUp()
         $(".java").slideUp()
         $(".css").slideUp()
         $(".argue").slideUp()
@@ -48,7 +49,7 @@ $(document).ready(function() {
         $(".para").slideUp()
         $(".play").slideUp()
     });
-    $(".arg").mouseover(function() {
+    $(".arg").mouseover(function () {
         $(".argue").slideToggle()
         $(".java").slideUp()
         $(".css").slideUp()
@@ -59,7 +60,7 @@ $(document).ready(function() {
         $(".para").slideUp()
         $(".play").slideUp()
     });
-    $(".stri").mouseover(function() {
+    $(".stri").mouseover(function () {
         $(".string").slideToggle()
         $(".java").slideUp()
         $(".css").slideUp()
@@ -70,7 +71,7 @@ $(document).ready(function() {
         $(".para").slideUp()
         $(".play").slideUp()
     });
-    $(".re").mouseover(function() {
+    $(".re").mouseover(function () {
         $(".return").slideToggle()
         $(".java").slideUp()
         $(".css").slideUp()
@@ -81,7 +82,7 @@ $(document).ready(function() {
         $(".para").slideUp()
         $(".play").slideUp()
     });
-    $(".chi").mouseover(function() {
+    $(".chi").mouseover(function () {
         $(".chain").slideToggle()
         $(".java").slideUp()
         $(".css").slideUp()
@@ -92,7 +93,7 @@ $(document).ready(function() {
         $(".para").slideUp()
         $(".play").slideUp()
     });
-    $(".pa").mouseover(function() {
+    $(".pa").mouseover(function () {
         $(".para").slideToggle()
         $(".java").slideUp()
         $(".css").slideUp()
@@ -103,7 +104,7 @@ $(document).ready(function() {
         $(".chain").slideUp()
         $(".play").slideUp()
     });
-    $(".ply").mouseover(function() {
+    $(".ply").mouseover(function () {
         $(".play").slideToggle()
         $(".java").slideUp()
         $(".css").slideUp()
