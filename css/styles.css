@@ -33,9 +33,6 @@ body:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.295);
     opacity: 0;
     animation: 5s flowup linear forwards;
-    
-
-
 }
 
 @keyframes flowup {
